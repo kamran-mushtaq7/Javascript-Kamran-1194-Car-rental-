@@ -1,0 +1,76 @@
+/* NavBar */
+.navb-item {
+    font-family: "Caprasimo", serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-logo {
+    width: 85px;
+    border-radius: 10px;
+}
+
+
+/* Hero-carousal */
+#carouselExampleCaptions {
+    height: 93vh;
+
+}
+
+.carousel-inner {
+    font-family: "Merriweather", serif;
+}
+
+.carousel-inner,
+.carousel-item,
+.carousel-item img {
+    height: 100%;
+}
+
+.carousel-item img {
+    object-fit: cover;
+}
+
+
+/* Filter */
+.filter-heading,
+.about-heading {
+    /* font-family: "Playfair Display", serif; */
+    font-family: "DM Serif Display", serif;
+    font-weight: bold;
+}
+
+/* Filter Buttons */
+
+.form-select:hover {
+    border-color: #ffc107;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+    transition: all 0.3s ease;
+}
+
+#applyBtn {
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+#applyBtn:hover {
+    background-color: #e0a800;
+    color: #fff;
+}
+
+/* About */
+.about-p1 {
+
+    font-family: "Lato", sans-serif;
+}
+
+.about-p2 {
+    font-family: "Raleway", sans-serif;
+    color: rgba(130, 130, 130, 0.769) !important;
+}
+
+.about-btn {
+    font-family: "Playfair Display", serif;
+}
